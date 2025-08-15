@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light/Dark variants for primitives */
+.iconbtn{height:44px;min-width:44px;padding:0 10px;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:600}
+.chip{display:inline-flex;gap:8px;align-items:center;padding:10px 12px;border-radius:999px;font-weight:600}
+.btnlike{height:56px;border-radius:12px;padding:0 14px;font-weight:800;color:inherit}
+.kbdkey{height:46px;border-radius:10px;font-weight:800}
+.itemrow{display:flex;align-items:center;gap:12px;padding:12px;border-radius:12px}
+.itemlike{display:flex;flex-direction:column;gap:10px;padding:12px;border-radius:12px}
+
+/* light */
+:root :is(.iconbtn,.chip,.btnlike,.kbdkey,.itemrow,.itemlike){border:1px solid rgba(0,0,0,.12); background:rgba(0,0,0,.04)}
+:root .btnlike{background:linear-gradient(180deg,rgba(0,0,0,.06),rgba(0,0,0,.03))}
+
+/* dark */
+.dark :is(.iconbtn,.chip,.btnlike,.kbdkey,.itemrow,.itemlike){border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.07)}
+.dark .btnlike{background:linear-gradient(180deg,rgba(255,255,255,.12),rgba(255,255,255,.08))}
+
+/* Flip card block (restored) */
+.cardwrap{perspective:1200px;-webkit-perspective:1200px}
+.card{transform-style:preserve-3d;-webkit-transform-style:preserve-3d;transition:transform .6s cubic-bezier(.2,.8,.2,1);border-radius:14px;padding:16px}
+.face{backface-visibility:hidden;-webkit-backface-visibility:hidden;min-height:160px;display:flex;flex-direction:column;justify-content:center}
+.back{transform:rotateY(180deg);-webkit-transform:rotateY(180deg)}
+.card.flipped{transform:rotateY(180deg);-webkit-transform:rotateY(180deg)}
+
+@keyframes pop{from{transform:scale(.98)}to{transform:scale(1)}}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}50%{transform:translateX(6px)}75%{transform:translateX(-3px)}}
+
+/* card theme surfaces */
+:root .card{background:rgba(0,0,0,.04);border:1px solid rgba(0,0,0,.12);box-shadow:0 10px 28px rgba(0,0,0,.08)}
+.dark .card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);box-shadow:0 10px 30px rgba(0,0,0,.35)}
