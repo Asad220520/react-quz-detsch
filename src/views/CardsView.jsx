@@ -51,12 +51,20 @@ export default function CardsView({
     [card?.front]
   );
   const doSpeak = React.useCallback(
-    (opts) =>
-      typeof onSpeak === "function"
-        ? onSpeak(opts)
-        : canSpeak
-        ? speakHere(opts)
-        : undefined,
+    (opts) => {
+      // 1) slow — всегда локальный TTS (чтобы на телефоне реально отличалась скорость)
+      if (opts?.slow && canSpeak) return speakHere(opts);
+
+      // 2) даём шанс внешнему onSpeak; если он вернул строго false — считаем, что не обработал
+      if (typeof onSpeak === "function") {
+        const res = onSpeak(opts);
+        if (res !== false) return res;
+      }
+
+      // 3) фолбэк — локальный TTS
+      if (canSpeak) return speakHere(opts);
+      return undefined;
+    },
     [onSpeak, canSpeak, speakHere]
   );
 
