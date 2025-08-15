@@ -50,6 +50,7 @@ export default function CardsView({
     },
     [card?.front]
   );
+  
   const doSpeak = React.useCallback(
     (opts) => {
       // 1) slow — всегда локальный TTS (чтобы на телефоне реально отличалась скорость)
@@ -67,7 +68,6 @@ export default function CardsView({
     },
     [onSpeak, canSpeak, speakHere]
   );
-
   // --- gestures + long‑press speak ---
   const ptr = React.useRef({
     id: null,
