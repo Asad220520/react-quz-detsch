@@ -573,4 +573,780 @@ export const defaultDecks = [
       { front: "Das ist nicht fair.", back: "Так не честно." },
     ],
   },
+  {
+    name: "Lektion 1.2– 5 — Глаголы и базовая лексика (A1 — 60)",
+    tags: ["Lektion1", "Словарь", "Глаголы", "Артикли", "A1"],
+    cards: [
+      {
+        front: "wiederholen — Ich wiederhole jeden Tag.",
+        back: "повторять — Я повторяю каждый день.",
+      },
+      {
+        front: "arbeiten — Wo arbeitest du?",
+        back: "работать — Где ты работаешь?",
+      },
+      {
+        front: "reden — Wir reden Deutsch.",
+        back: "разговаривать — Мы говорим по-немецки.",
+      },
+      {
+        front: "antworten — Er antwortet schnell.",
+        back: "отвечать — Он быстро отвечает.",
+      },
+      {
+        front: "kochen — Sie kocht jeden Tag.",
+        back: "готовить — Она готовит каждый день.",
+      },
+      {
+        front: "reisen — Er reist oft.",
+        back: "путешествовать — Он часто путешествует.",
+      },
+      { front: "singen — Sie singt schön.", back: "петь — Она красиво поёт." },
+
+      {
+        front: "kosten — Was kostet die Lampe?",
+        back: "стоить — Сколько стоит лампа?",
+      },
+      {
+        front: "lesen — Liest du gern Bücher?",
+        back: "читать — Ты любишь читать книги?",
+      },
+      {
+        front: "schreiben — Ich schreibe einen Brief.",
+        back: "писать — Я пишу письмо.",
+      },
+      {
+        front: "machen — Machst du jeden Tag Hausaufgaben?",
+        back: "делать — Ты делаешь каждый день домашнее задание?",
+      },
+      {
+        front: "übersetzen — Ich übersetze den Text.",
+        back: "переводить — Я перевожу текст.",
+      },
+      { front: "joggen — Du joggst gern.", back: "бегать — Ты любишь бегать." },
+      { front: "lieben — Ich liebe Kaffee.", back: "любить — Я люблю кофе." },
+      {
+        front: "fragen — Darf ich Sie fragen?",
+        back: "спрашивать — Могу ли я Вас спросить?",
+      },
+      { front: "lügen — Er lügt nie.", back: "лгать — Он никогда не лжёт." },
+
+      {
+        front: "der Verkäufer — Der Verkäufer arbeitet hier.",
+        back: "продавец — Продавец работает здесь.",
+      },
+      {
+        front: "die Kellnerin — Die Kellnerin arbeitet im Restaurant.",
+        back: "официантка — Официантка работает в ресторане.",
+      },
+      {
+        front: "der Ingenieur — Ich arbeite als Ingenieur.",
+        back: "инженер — Я работаю инженером.",
+      },
+      {
+        front: "der Friseur — Arbeitest du als Friseur?",
+        back: "парикмахер — Ты работаешь парикмахером?",
+      },
+      {
+        front: "die Ärztin — Ich arbeite als Ärztin.",
+        back: "врач (ж) — Я работаю врачом.",
+      },
+
+      {
+        front: "die Wohnung — Die Wohnung ist klein.",
+        back: "квартира — Квартира маленькая.",
+      },
+      {
+        front: "der Schrank — Der Schrank ist teuer.",
+        back: "шкаф — Шкаф дорогой.",
+      },
+      {
+        front: "das Regal — Das Regal ist praktisch.",
+        back: "полка — Полка практичная.",
+      },
+      {
+        front: "die Lampe — Die Lampe kostet 10 Euro.",
+        back: "лампа — Лампа стоит 10 евро.",
+      },
+      {
+        front: "der Tisch — Der Tisch ist groß.",
+        back: "стол — Стол большой.",
+      },
+      {
+        front: "der Stuhl — Der Stuhl ist bequem.",
+        back: "стул — Стул удобный.",
+      },
+      {
+        front: "der Sessel — Der Sessel ist weich.",
+        back: "кресло — Кресло мягкое.",
+      },
+      {
+        front: "die Stadt — Ich wohne in der Stadt Bischkek.",
+        back: "город — Я живу в городе Бишкек.",
+      },
+      { front: "der Käse — Der Käse ist frisch.", back: "сыр — Сыр свежий." },
+
+      {
+        front: "teuer — Das Ticket ist teuer.",
+        back: "дорогой — Билет дорогой.",
+      },
+      {
+        front: "praktisch — Das ist praktisch.",
+        back: "практичный — Это практично.",
+      },
+      { front: "neu — Die Wohnung ist neu.", back: "новый — Квартира новая." },
+      {
+        front: "modern — Die Küche ist modern.",
+        back: "современный — Кухня современная.",
+      },
+      {
+        front: "bequem — Der Stuhl ist bequem.",
+        back: "удобный — Стул удобный.",
+      },
+      {
+        front: "günstig — Das Ticket ist günstig.",
+        back: "выгодный — Билет выгодный.",
+      },
+      {
+        front: "schön — Bischkek ist schön.",
+        back: "красивый — Бишкек красивый.",
+      },
+      {
+        front: "klein — Das Zimmer ist klein.",
+        back: "маленький — Комната маленькая.",
+      },
+      { front: "schade — Das ist schade.", back: "жаль — Это жаль." },
+
+      { front: "wo — Wo wohnst du?", back: "где — Где ты живёшь?" },
+      { front: "wie — Wie heißt du?", back: "как — Как тебя зовут?" },
+      { front: "wann — Wann kommst du?", back: "когда — Когда ты придёшь?" },
+      {
+        front: "warum — Warum lernst du Deutsch?",
+        back: "почему — Почему ты учишь немецкий?",
+      },
+
+      {
+        front: "nur — Ich lerne nur Deutsch.",
+        back: "только — Я учу только немецкий.",
+      },
+      {
+        front: "sehr — Ich spiele sehr gut.",
+        back: "очень — Я очень хорошо играю.",
+      },
+      { front: "da — Ich bin da.", back: "там — Я там/я здесь (на месте)." },
+      {
+        front: "aber — Es ist leicht, aber langweilig.",
+        back: "но — Это легко, но скучно.",
+      },
+      {
+        front: "später — Wir gehen später nach Hause.",
+        back: "позже — Мы пойдём домой позже.",
+      },
+      {
+        front: "danke — Danke für deine Hilfe.",
+        back: "спасибо — Спасибо за твою помощь.",
+      },
+      {
+        front: "kein — Ich habe kein Geld.",
+        back: "не (отрицание) — У меня нет денег.",
+      },
+
+      {
+        front: "die Lust — Ich habe keine Lust.",
+        back: "желание — У меня нет желания.",
+      },
+      {
+        front: "alt — Mein Großvater ist alt.",
+        back: "старый — Мой дедушка старый.",
+      },
+      {
+        front: "formell — Das ist sehr formell.",
+        back: "официальный — Это очень официально.",
+      },
+      {
+        front: "informell — Das Treffen ist informell.",
+        back: "неофициальный — Встреча неофициальная.",
+      },
+      {
+        front: "lecker — Meine Mutter kocht lecker.",
+        back: "вкусный — Моя мама вкусно готовит.",
+      },
+
+      { front: "mein — Das ist mein Buch.", back: "мой — Это моя книга." },
+      {
+        front: "unser — Unser Lehrer ist sehr nett.",
+        back: "наш — Наш учитель очень добрый.",
+      },
+      {
+        front: "etwas — Ich habe etwas für dich.",
+        back: "что-нибудь — У меня есть кое-что для тебя.",
+      },
+      {
+        front: "auch — Ich spiele auch Fußball.",
+        back: "тоже, также — Я тоже играю футбол.",
+      },
+    ],
+  },
+  {
+    name: "Lektion 1-6 — Приветствия и базовая лексика (исправлено, A1)",
+    tags: ["Lektion1", "Словарь", "Фразы", "Глаголы", "A1"],
+    cards: [
+      { front: "Hallo!", back: "Привет!" },
+      { front: "Guten Tag (der Tag)!", back: "Добрый день" },
+      { front: "Guten Morgen (der Morgen)!", back: "Доброе утро" },
+      { front: "Guten Abend (der Abend)!", back: "Добрый вечер" },
+      { front: "Gute Nacht (die Nacht)!", back: "Доброй ночи" },
+
+      { front: "Wie geht es dir?", back: "Как у тебя дела?" },
+      { front: "Wie geht es Ihnen?", back: "Как у Вас дела?" },
+      { front: "Wie geht es euch?", back: "Как у вас дела?" },
+      { front: "Es geht.", back: "Пойдёт." },
+      { front: "Danke, gut.", back: "Спасибо, хорошо." },
+
+      { front: "Entschuldigung!", back: "Извините!" },
+      { front: "Entschuldigen Sie bitte.", back: "Извините, пожалуйста." },
+
+      { front: "Darf ich hinein?", back: "Могу я войти?" },
+      { front: "Darf ich hinaus?", back: "Могу я выйти?" },
+
+      { front: "ja", back: "да" },
+      { front: "nein", back: "нет" },
+
+      { front: "Tschüss!", back: "Пока!" },
+      { front: "Auf Wiedersehen!", back: "До свидания!" },
+      { front: "Bis morgen!", back: "До завтра!" },
+      { front: "Bis bald!", back: "До скорого!" },
+
+      { front: "der Tag — Der Tag ist lang.", back: "день — День длинный." },
+      {
+        front: "der Morgen — Heute Morgen war kalt.",
+        back: "утро — Сегодня утром было холодно.",
+      },
+      {
+        front: "der Abend — Heute Abend habe ich Zeit.",
+        back: "вечер — Сегодня вечером у меня есть время.",
+      },
+      {
+        front: "die Nacht — In der Nacht ist es still.",
+        back: "ночь — Ночью тихо.",
+      },
+
+      {
+        front: "machen — Machst du jeden Tag Hausaufgaben?",
+        back: "делать — Ты делаешь каждый день домашнее задание?",
+      },
+      {
+        front: "spielen — Wir spielen Fußball.",
+        back: "играть — Мы играем в футбол.",
+      },
+      {
+        front: "wohnen — Ich wohne in Bischkek.",
+        back: "жить — Я живу в Бишкеке.",
+      },
+      {
+        front: "hören — Hörst du Musik?",
+        back: "слушать — Ты слушаешь музыку?",
+      },
+      {
+        front: "kommen — Kommst du morgen?",
+        back: "приходить — Ты придёшь завтра?",
+      },
+      {
+        front: "lernen — Ich lerne Deutsch.",
+        back: "учиться — Я учу немецкий.",
+      },
+      { front: "lieben — Ich liebe Kaffee.", back: "любить — Я люблю кофе." },
+      {
+        front: "fragen — Darf ich Sie fragen?",
+        back: "спрашивать — Могу ли я Вас спросить?",
+      },
+      { front: "lügen — Er lügt nie.", back: "лгать — Он никогда не лжёт." },
+      { front: "heißen — Wie heißt du?", back: "называться — Как тебя зовут?" },
+      {
+        front: "wiederholen — Ich wiederhole jeden Tag.",
+        back: "повторять — Я повторяю каждый день.",
+      },
+
+      {
+        front: "arbeiten — Wo arbeitest du?",
+        back: "работать, трудиться — Где ты работаешь?",
+      },
+      {
+        front: "reden — Wir reden Deutsch.",
+        back: "разговаривать — Мы говорим по-немецки.",
+      },
+      {
+        front: "antworten — Er antwortet schnell.",
+        back: "отвечать — Он быстро отвечает.",
+      },
+      {
+        front: "übersetzen — Ich übersetze den Text.",
+        back: "переводить — Я перевожу текст.",
+      },
+      {
+        front: "kochen — Sie kocht jeden Tag.",
+        back: "готовить — Она готовит каждый день.",
+      },
+      { front: "joggen — Du joggst gern.", back: "бегать — Ты любишь бегать." },
+      {
+        front: "reisen — Er reist oft.",
+        back: "путешествовать — Он часто путешествует.",
+      },
+      { front: "singen — Sie singt schön.", back: "петь — Она красиво поёт." },
+
+      { front: "Sehen wir uns noch?", back: "Увидимся ещё?" },
+      { front: "Schönes Wochenende!", back: "Хороших выходных!" },
+      { front: "gleichfalls / ebenso.", back: "Взаимно / и вам того же." },
+      { front: "Alles Gute!", back: "Всего хорошего!" },
+      { front: "Viel Erfolg!", back: "Успехов! Удачи!" },
+
+      { front: "Ist alles in Ordnung?", back: "Всё в порядке?" },
+      { front: "Was ist los?", back: "Что случилось?" },
+      { front: "Was gibt es Neues?", back: "Что нового?" },
+      { front: "Was war die Hausaufgabe?", back: "Что было задано?" },
+      { front: "Haben Sie es gemacht?", back: "Вы сделали (это)?" },
+
+      {
+        front: "arbeiten als — Ich arbeite nicht als Ingenieur.",
+        back: "работать кем-либо — Я не работаю инженером.",
+      },
+      {
+        front: "zur Schule — Ich gehe zur Schule.",
+        back: "в школу — Я иду в школу.",
+      },
+
+      { front: "wer — Wer ist das?", back: "кто — Кто это?" },
+      { front: "was — Was machst du?", back: "что — Что ты делаешь?" },
+      {
+        front: "kein — Ich habe kein Geld.",
+        back: "не/никакой (отрицание существительного) — У меня нет денег.",
+      },
+
+      {
+        front: "nur — Ich lerne nur Deutsch.",
+        back: "только — Я учу только немецкий.",
+      },
+      {
+        front: "sehr — Ich spiele sehr gut.",
+        back: "очень — Я очень хорошо играю.",
+      },
+      {
+        front: "da — Ich bin gleich da.",
+        back: "там/тут (на месте) — Я скоро буду на месте.",
+      },
+      {
+        front: "aber — Es ist leicht, aber langweilig.",
+        back: "но — Это легко, но скучно.",
+      },
+      {
+        front: "später — Wir gehen später nach Hause.",
+        back: "позже — Мы пойдём домой позже.",
+      },
+
+      {
+        front: "die Wohnung, -en — Die Wohnung ist klein.",
+        back: "квартира — Квартира маленькая.",
+      },
+      {
+        front: "der Schrank, die Schränke — Der Schrank ist teuer.",
+        back: "шкаф — Шкаф дорогой.",
+      },
+      {
+        front: "das Regal, die Regale — Das Regal ist praktisch.",
+        back: "полка — Полка практичная.",
+      },
+      {
+        front: "der Euro — Das Ticket kostet 10 Euro.",
+        back: "евро — Билет стоит 10 евро.",
+      },
+      {
+        front: "die Lampe, die Lampen — Die Lampe kostet 10 Euro.",
+        back: "лампа — Лампа стоит 10 евро.",
+      },
+      {
+        front: "der Stuhl, die Stühle — Der Stuhl ist bequem.",
+        back: "стул — Стул удобный.",
+      },
+      {
+        front: "der Sessel, die Sessel — Der Sessel ist weich.",
+        back: "кресло — Кресло мягкое.",
+      },
+      {
+        front: "der Tisch, die Tische — Der Tisch ist groß.",
+        back: "стол — Стол большой.",
+      },
+      {
+        front: "die Stadt, die Städte — Ich wohne in der Stadt Bischkek.",
+        back: "город — Я живу в городе Бишкек.",
+      },
+      {
+        front: "die Lust — Ich habe keine Lust.",
+        back: "желание — У меня нет желания.",
+      },
+      { front: "der Käse — Der Käse ist frisch.", back: "сыр — Сыр свежий." },
+
+      {
+        front: "teuer — Das Ticket ist teuer.",
+        back: "дорогой — Билет дорогой.",
+      },
+      {
+        front: "praktisch — Das ist praktisch.",
+        back: "практичный — Это практично.",
+      },
+      { front: "neu — Die Wohnung ist neu.", back: "новый — Квартира новая." },
+      {
+        front: "modern — Die Küche ist modern.",
+        back: "современный — Кухня современная.",
+      },
+      {
+        front: "bequem — Das Bett ist bequem.",
+        back: "удобный — Кровать удобная.",
+      },
+      {
+        front: "günstig — Das Ticket ist günstig.",
+        back: "выгодный — Билет выгодный.",
+      },
+      {
+        front: "schön — Bischkek ist schön.",
+        back: "красивый — Бишкек красивый.",
+      },
+      {
+        front: "klein — Das Zimmer ist klein.",
+        back: "маленький — Комната маленькая.",
+      },
+      { front: "schade — Das ist schade.", back: "жаль — Это жаль." },
+
+      {
+        front: "kosten — Was kostet die Lampe?",
+        back: "стоить — Сколько стоит лампа?",
+      },
+      {
+        front: "bleiben — Ich bleibe in Bischkek.",
+        back: "оставаться — Я остаюсь в Бишкеке.",
+      },
+
+      { front: "wann — Wann kommst du?", back: "когда — Когда ты придёшь?" },
+      { front: "wo — Wo wohnst du?", back: "где — Где ты живёшь?" },
+      { front: "wie — Wie heißt du?", back: "как — Как тебя зовут?" },
+
+      {
+        front: "wissen — Ich weiß es nicht.",
+        back: "знать — Я этого не знаю.",
+      },
+      {
+        front: "möchten — Möchten Sie Wasser oder Kaffee?",
+        back: "хотеть (вежливо) — Вы хотите воду или кофе?",
+      },
+      {
+        front: "mögen — Ich mag Tee.",
+        back: "любить, нравиться — Мне нравится чай.",
+      },
+      {
+        front: "tun — Was tust du am Wochenende?",
+        back: "делать, выполнять — Что ты делаешь на выходных?",
+      },
+      {
+        front: "Sport treiben — Ich treibe jeden Tag Sport.",
+        back: "заниматься спортом — Я каждый день занимаюсь спортом.",
+      },
+      {
+        front: "buchstabieren — Können Sie das buchstabieren?",
+        back: "говорить по буквам — Вы можете произнести это по буквам?",
+      },
+      {
+        front: "lesen — Liest du gern Bücher?",
+        back: "читать — Ты любишь читать книги?",
+      },
+
+      {
+        front: "das Buch, die Bücher — Das Buch ist neu.",
+        back: "книга, учебник — Книга новая.",
+      },
+      {
+        front: "das Zimmer, die Zimmer — Mein Zimmer ist klein.",
+        back: "комната, номер — Моя комната маленькая.",
+      },
+      {
+        front: "das Ticket, die Tickets — Ich habe ein Ticket.",
+        back: "билет — У меня есть билет.",
+      },
+      {
+        front: "der Meerblick, die Meerblicke — Das Zimmer hat Meerblick.",
+        back: "вид на море — Из номера вид на море.",
+      },
+      {
+        front: "der Film, die Filme — Der Film war interessant.",
+        back: "фильм — Фильм был интересный.",
+      },
+      {
+        front: "die Suppe, die Suppen — Die Suppe ist lecker.",
+        back: "суп — Суп вкусный.",
+      },
+      { front: "der Tee — Ich trinke Tee.", back: "чай — Я пью чай." },
+
+      {
+        front: "nach — Wir fahren nach Deutschland.",
+        back: "в (направление) — Мы едем в Германию.",
+      },
+      {
+        front: "nach Hause — Ich gehe nach Hause.",
+        back: "домой — Я иду домой.",
+      },
+      { front: "zu Hause — Ich bin zu Hause.", back: "дома — Я дома." },
+
+      {
+        front: "heute — Heute lerne ich viel.",
+        back: "сегодня — Сегодня я много учусь.",
+      },
+      {
+        front: "morgen — Morgen habe ich Zeit.",
+        back: "завтра — Завтра у меня есть время.",
+      },
+
+      {
+        front: "warum — Warum lernst du Deutsch?",
+        back: "почему — Почему ты учишь немецкий?",
+      },
+      {
+        front: "dann — Dann gehen wir nach Hause.",
+        back: "потом — Потом мы пойдём домой.",
+      },
+
+      {
+        front: "auch — Ich spiele auch Fußball.",
+        back: "тоже, также — Я тоже играю в футбол.",
+      },
+      {
+        front: "danke — Danke für deine Hilfe.",
+        back: "спасибо — Спасибо за твою помощь.",
+      },
+      {
+        front: "oder — Möchtest du Wasser oder Kaffee?",
+        back: "или, либо — Хочешь воду или кофе?",
+      },
+      {
+        front: "ein bisschen — Ich spreche ein bisschen Deutsch.",
+        back: "немного — Я немного говорю по-немецки.",
+      },
+      {
+        front: "gerade — Ich esse gerade.",
+        back: "как раз, сейчас — Я сейчас ем.",
+      },
+      {
+        front: "etwas — Ich habe etwas für dich.",
+        back: "что-нибудь — У меня есть кое-что для тебя.",
+      },
+
+      {
+        front: "allein — Ich wohne allein in Bischkek.",
+        back: "один, одинокий — Я живу один в Бишкеке.",
+      },
+      {
+        front: "lecker — Meine Mutter kocht lecker.",
+        back: "вкусный — Моя мама вкусно готовит.",
+      },
+      {
+        front: "formell — Das ist sehr formell.",
+        back: "официальный — Это очень официально.",
+      },
+      {
+        front: "informell — Das Treffen ist informell.",
+        back: "неофициальный — Встреча неофициальная.",
+      },
+      {
+        front: "alt — Mein Großvater ist schon sehr alt.",
+        back: "старый — Мой дедушка уже очень старый.",
+      },
+      {
+        front: "bequem — Der Stuhl ist bequem.",
+        back: "удобный — Стул удобный.",
+      },
+
+      { front: "trinken — Trinkst du Kaffee?", back: "пить — Ты пьёшь кофе?" },
+      { front: "nehmen — Ich nehme Wasser.", back: "брать — Я беру воду." },
+      {
+        front: "schreiben — Ich schreibe einen Brief.",
+        back: "писать — Я пишу письмо.",
+      },
+      {
+        front: "bedeuten — Was bedeutet dieses Wort?",
+        back: "значить, означать — Что означает это слово?",
+      },
+      { front: "herein — Darf ich herein?", back: "внутрь — Можно войти?" },
+
+      {
+        front: "das Café, die Cafés — Arbeitest du im Café?",
+        back: "кафе — Ты работаешь в кафе?",
+      },
+      {
+        front: "der Kaffee — Ich trinke gern Kaffee.",
+        back: "кофе — Я люблю пить кофе.",
+      },
+      {
+        front: "der Kuchen, die Kuchen — Wie viel kostet der Kuchen?",
+        back: "пирог, торт — Сколько стоит торт?",
+      },
+      {
+        front: "die E-Mail, die E-Mails — Ich schreibe eine E-Mail.",
+        back: "электронная почта — Я пишу электронное письмо.",
+      },
+      {
+        front: "das Kind, die Kinder — Die Kinder spielen im Garten.",
+        back: "ребёнок, дети — Дети играют в саду.",
+      },
+
+      {
+        front: "im Internet surfen — Surfst du im Internet?",
+        back: "сидеть в интернете — Ты сидишь в интернете?",
+      },
+      {
+        front: "unser — Unser Lehrer ist sehr nett.",
+        back: "наш — Наш учитель очень добрый.",
+      },
+      { front: "mein — Das ist mein Buch.", back: "мой — Это моя книга." },
+
+      {
+        front: "schwimmen — Er schwimmt im See.",
+        back: "плавать — Он плавает в озере.",
+      },
+      {
+        front: "helfen — Der Lehrer hilft uns bei den Hausaufgaben.",
+        back: "помогать — Учитель помогает нам с домашним заданием.",
+      },
+      {
+        front: "einkaufen — Ich gehe heute einkaufen.",
+        back: "закупаться — Я сегодня иду за покупками.",
+      },
+      {
+        front: "kochen — Was kannst du gut kochen?",
+        back: "готовить — Что ты можешь хорошо готовить?",
+      },
+      {
+        front: "aufräumen — Ich räume am Wochenende auf.",
+        back: "убираться — Я на выходных убираюсь.",
+      },
+      {
+        front: "fernsehen — Ich sehe jeden Abend fern.",
+        back: "смотреть телевизор — Я смотрю телевизор каждый вечер.",
+      },
+      {
+        front: "besuchen — Ich besuche jeden Tag den Deutschkurs bei IWEX.",
+        back: "посещать, навещать — Я каждый день посещаю курс немецкого в IWEX.",
+      },
+      {
+        front: "spazieren gehen — Möchtest du mit mir spazieren gehen?",
+        back: "гулять — Ты хочешь пойти со мной на прогулку?",
+      },
+      {
+        front: "verlängern — Kannst du bitte das Ticket verlängern?",
+        back: "продлевать — Можешь, пожалуйста, продлить билет?",
+      },
+      {
+        front: "mitnehmen — Was möchtest du nach Deutschland mitnehmen?",
+        back: "взять с собой — Что ты хотел(а) бы взять с собой в Германию?",
+      },
+      {
+        front: "bleiben — Ich möchte in Deutschland drei Monate bleiben.",
+        back: "оставаться — Я хотел(а) бы остаться в Германии три месяца.",
+      },
+
+      {
+        front: "der Urlaub — Ich nehme im Sommer Urlaub.",
+        back: "отпуск — Я беру отпуск летом.",
+      },
+      {
+        front: "die Oma, -s — Oma, wie geht es dir?",
+        back: "бабушка — Бабушка, как ты себя чувствуешь?",
+      },
+      {
+        front: "der Arzt, die Ärzte — Er arbeitet als Arzt.",
+        back: "врач — Он работает врачом.",
+      },
+      {
+        front: "die Tochter, die Töchter — Meine Tochter spielt gern Klavier.",
+        back: "дочь — Моя дочь любит играть на пианино.",
+      },
+      {
+        front:
+          "die Aufenthaltserlaubnis, die Aufenthaltserlaubnisse — Er hat eine Aufenthaltserlaubnis für drei Jahre.",
+        back: "разрешение на пребывание (ВНЖ) — У него разрешение на пребывание на три года.",
+      },
+      {
+        front: "der Stock, die Stockwerke — Ich wohne im dritten Stock.",
+        back: "этаж — Я живу на третьем этаже.",
+      },
+
+      {
+        front: "am Montag — Am Montag fahren wir nach Talas.",
+        back: "в понедельник — В понедельник мы поедем в Талас.",
+      },
+      {
+        front: "am Nachmittag — Am Nachmittag gehen wir ins Kino.",
+        back: "после обеда (днём) — После обеда мы идём в кино.",
+      },
+
+      {
+        front: "hoffentlich — Hoffentlich kommt er bald.",
+        back: "надеюсь — Надеюсь, он скоро придёт.",
+      },
+      {
+        front: "vielleicht — Vielleicht ist er zu Hause.",
+        back: "возможно — Возможно, он дома.",
+      },
+      {
+        front: "beide — Beide Teams spielen gut.",
+        back: "оба, обе — Оба клуба играют хорошо.",
+      },
+      {
+        front: "schneller — Er läuft schneller als ich.",
+        back: "быстрее — Он бегает быстрее, чем я.",
+      },
+      {
+        front: "länger — Ich kann heute länger arbeiten.",
+        back: "дольше — Я могу сегодня работать дольше.",
+      },
+      {
+        front: "leider — Ich kann leider heute nicht kommen.",
+        back: "к сожалению — К сожалению, я не смогу сегодня прийти.",
+      },
+      {
+        front: "zusammen — Wir möchten zusammen in Deutschland arbeiten.",
+        back: "вместе — Мы хотели бы вместе работать в Германии.",
+      },
+      { front: "Das ist nicht fair.", back: "Это нечестно." },
+
+      {
+        front: "der Verkäufer — Der Verkäufer arbeitet hier.",
+        back: "продавец — Продавец работает здесь.",
+      },
+      {
+        front: "die Kellnerin — Die Kellnerin arbeitet im Restaurant.",
+        back: "официантка — Официантка работает в ресторане.",
+      },
+      {
+        front: "der Paketzusteller — Der Paketzusteller bringt ein Paket.",
+        back: "курьер, доставщик — Курьер приносит посылку.",
+      },
+      {
+        front: "der Ingenieur — Ich arbeite als Ingenieur.",
+        back: "инженер — Я работаю инженером.",
+      },
+      {
+        front: "der Kfz-Mechatroniker — Der Kfz-Mechatroniker repariert Autos.",
+        back: "автомеханик — Автомеханик чинит машины.",
+      },
+      {
+        front: "der Friseur — Arbeitest du als Friseur?",
+        back: "парикмахер — Ты работаешь парикмахером?",
+      },
+      {
+        front: "die Ärztin — Ich arbeite als Ärztin.",
+        back: "женщина-врач — Я работаю врачом.",
+      },
+      {
+        front: "der Lehrer — Der Lehrer erklärt die Aufgabe.",
+        back: "учитель — Учитель объясняет задание.",
+      },
+    ],
+  },
 ];

@@ -2,6 +2,7 @@
 import React from "react";
 import Button from "../components/ui/Button";
 import Chip from "../components/ui/Chip";
+
 import {
   Volume2,
   ChevronLeft,
@@ -9,6 +10,8 @@ import {
   FlipHorizontal2,
 } from "lucide-react";
 import { speak, speakSlow, ensureReady } from "../lib/tts";
+import { playNeural } from "../lib/nnTts";
+
 
 export default function CardsView({
   deck,
@@ -43,13 +46,25 @@ export default function CardsView({
   const card = total ? deck.cards[idx] : { front: "—", back: "—" };
 
   // --- local speaker (fallback if no onSpeak prop) ---
-  const speakHere = React.useCallback(
-    (opts) => {
-      if (!card?.front) return;
-      return opts?.slow ? speakSlow(card.front, opts) : speak(card.front, opts);
-    },
-    [card?.front]
-  );
+const speakHere = React.useCallback(
+  async (opts) => {
+    if (!card?.front) return;
+    // 1) Пытаемся нейросетью
+    try {
+      await playNeural(card.front, {
+        lang: "de-DE",
+        voice: "de_female_1", // поменяй на ваш идентификатор голоса
+        rate: opts?.slow ? 0.9 : 1.0, // long-press → медленнее
+      });
+      return true; // сигнал «обработано»
+    } catch {}
+
+    // 2) Фолбэк — браузерный TTS
+    return opts?.slow ? speakSlow(card.front, opts) : speak(card.front, opts);
+  },
+  [card?.front]
+);
+
   
   const doSpeak = React.useCallback(
     (opts) => {
